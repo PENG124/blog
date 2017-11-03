@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_URL}/bootstrap.css">
+    <link rel="stylesheet" href="{CSS_URL}/goodquery.css">
+</head>
+<body>
+<header>
+    <main>
+        <div class="head">
+            <span class="bbig">博客</span>
+            <span class="small">有见识的人都在这里</span>
+        </div>
+        <!--回到首页-->
+        <div class="index">
+            <a href="index.php?m=index&f=index&a=back">回到首页</a>
+        </div>
+    </main>
+</header>
+<section class="article">
+    <main>
+        <div class="user">
+            <h4>点赞查询</h4>
+            <hr>
+            <a href="index.php?m=index&f=index&a=userreg" class="btn btn-default">返回</a>
+        </div>
+        <div class="right">
+            <ul class="publishs">
+                {foreach $row as $v}
+                <li>
+                    <span>文章标题：</span>{$v["conid"]}
+                    <div class="publish-time">
+                        赞：{$v["uid"]}
+                    </div>
+                </li>
+                {/foreach}
+            </ul>
+        </div>
+    </main>
+</section>
+<!--底部-->
+<footer class="foot">
+    <main>
+        <div class="footer">
+            <div class="footer-top"></div>
+            <ul>
+                <li><a href="">关于博客</a></li>
+                <li>|</li>
+                <li><a href="">博客客服</a></li>
+                <li>|</li>
+                <li><a href="">隐私与版权</a></li>
+                <li>|</li>
+                <li><a href="">联系我们</a></li>
+            </ul>
+            <div class="blog-copy">© 2016 - 2017 博客 版权所有</div>
+        </div>
+    </main>
+</footer>
+</body>
+</html>

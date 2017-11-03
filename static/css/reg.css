@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+.head{
+    width: 80%;
+    height: 50px;
+    float: left;
+    border-bottom: 4px solid #ddd;
+}
+.bbig{
+    width: 80px;
+    height: 50px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: #2E2831;
+    font-weight: bold;
+}
+.small{
+    width: 150px;
+    height: 50px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+    color: #2E2831;
+    font-family: "华文行楷";
+}
+.index{
+    width: 20%;
+    height: 50px;
+    float: left;
+    border-bottom: 4px solid #ddd;
+}
+.index a{
+    width: 80px;
+    height:30px;
+    display: block;
+    background: #2965B1;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 50px;
+    border-radius: 5px ;
+}
+.con{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-between;
+}
+.userleft{
+    width: 36%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+.usermessage{
+    width: 100%;
+    height: auto;
+    background: #eee;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+.kuang{
+    width: 130px;
+    height: 130px;
+    background: #ff6c00;
+    margin: 20px auto;
+}
+.kuang img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.username{
+    width: 100%;
+    height:30px;
+    font-size: 18px;
+    color: #2965B1;
+    text-align: center;
+    line-height: 30px;
+}
+.friend{
+    width: 300px;
+    height: 50px;
+    padding: 5px 30px;
+}
+.friend a{
+    width: 80px;
+    height: 40px;
+    display: block;
+    margin:5px 30px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: #70A3DA;
+}
+.integral span{
+    width: 100%;
+    height: 35px;
+    display: block;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    line-height: 35px;
+}
+.leavemessage{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
+.leavemessage span{
+    width: 100%;
+    height: 30px;
+    display: block;
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+}
+.leavemessage textarea{
+    resize: none;
+}
+.leavemessage .leavebtn{
+    width: 80px;
+    height: 30px;
+    display: block;
+    background: #70A3DA;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    float: right;
+}
+.userclassify{
+    width: 100%;
+    height: auto;
+    background: #eee;
+    margin-bottom: 20px;
+}
+.userclassify span{
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    color: #000;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+}
+.userclassify ul li{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.userclassify ul li a{
+    font-size: 14px;
+    color: #2965B1;
+    line-height: 40px;
+    text-align: center;
+}
+.conright{
+    width: 60%;
+    height: auto;
+    float: left;
+    padding-left: 20px;
+}
+.conrightspan{
+    width: 580px;
+    height: 30px;
+    background: #eee;
+    font-size: 16px;
+    color: #2965B1;
+    line-height: 30px;
+    padding-left: 20px;
+    display: block;
+}
+table{
+    width: 100%;
+    height: auto;
+}
+tr{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px dashed #ddd;
+}
+th,td{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #000;
+}
+.tabletitle{
+    width: 65%;
+    height: 30px;
+    font-size: 16px;
+    color: #2965B1;
+    line-height: 30px;
+}
+.tabletitle a{
+    color: #2965B1;
+}
+.tabledata{
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+}
+.tablenum{
+    width: 10%;
+    text-align: center;
+    font-size: 14px;
+}
+.foot{
+    width: 100%;
+    height: 100px;
+}
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+.footer-top{
+    width: 100%;
+    height: 3px;
+    background: #ddd;
+}
+.footer ul{
+    width: 500px;
+    height: 50px;
+    margin: auto;
+}
+.footer ul li{
+    margin: 10px;
+    float: left;
+    font-size: 14px;
+    color: #2965B1;
+    line-height: 30px;
+}
+.footer ul li a{
+    color: #2965B1;
+}
+.blog-copy{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #000;
+}

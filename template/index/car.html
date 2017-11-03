@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_URL}/bootstrap.css">
+    <link rel="stylesheet" href="{CSS_URL}/car.css">
+    <script src="{JS_URL}/jquery-3.2.1.js"></script>
+    <script src="{JS_URL}/car.js"></script>
+</head>
+<body>
+<header>
+    <main>
+        <div class="head">
+            <span class="bbig">博客</span>
+            <span class="small">有见识的人都在这里</span>
+        </div>
+        <!--回到首页-->
+        <div class="index">
+            <a href="index.php?m=index&f=index&a=back">回到首页</a>
+        </div>
+    </main>
+</header>
+<section class="article">
+    <main>
+        <div class="user">
+            <h4>购物车</h4>
+            <a href="index.php?m=index&f=index&a=userreg" class="btn btn-default">返回</a>
+            <hr>
+        </div>
+        <div class="right">
+            <ul class="shopping">
+                <li>
+                    <div class="shopping-input"></div>
+                    <div class="shopping-img">
+                       <span>缩略图</span>
+                    </div>
+                    <div class="shopping-title">
+                        <span>名称</span>
+                    </div>
+                    <div class="shopping-num">
+                        <span>数量</span>
+                    </div>
+                    <div class="shopping-price">
+                        <span>价格</span>
+                    </div>
+                    <div class="shopping-del">
+                        <span>操作</span>
+                    </div>
+                </li>
+                {foreach $row as $v}
+                <li>
+                    <div class="shopping-input">
+                        <input type="checkbox" name="">
+                    </div>
+                    <div class="shopping-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="shopping-title">
+                        <span>{$v["uid"]}</span>
+                    </div>
+                    <div class="shopping-num">
+                        <span>3</span>
+                    </div>
+                    <div class="shopping-price">
+                        <span>10.00</span>
+                    </div>
+                    <div class="shopping-del">
+                        <a href="">删除</a>
+                    </div>
+                </li>
+                {/foreach}
+            </ul>
+            <div class="check">
+                <div class="check-input">
+                    <input type="checkbox" name="">&nbsp;全选
+                </div>
+                <div class="check-del">
+                    <a href="">删除</a>
+                    <a href="">分享</a>
+                </div>
+                <div class="check-num">
+                    <p>已选择<span>0</span>件，共计<span>0</span>元</p>
+                </div>
+                <div class="check-pay">
+                   <button>结算</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</section>
+<!--底部-->
+<footer class="foot">
+    <main>
+        <div class="footer">
+            <div class="footer-top"></div>
+            <ul>
+                <li><a href="">关于博客</a></li>
+                <li>|</li>
+                <li><a href="">博客客服</a></li>
+                <li>|</li>
+                <li><a href="">隐私与版权</a></li>
+                <li>|</li>
+                <li><a href="">联系我们</a></li>
+            </ul>
+            <div class="blog-copy">© 2016 - 2017 博客 版权所有</div>
+        </div>
+    </main>
+</footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{CSS_URL}/bootstrap.css">
+    <link rel="stylesheet" href="{CSS_URL}/indexCMS.css">
+    <link rel="stylesheet" href="{CSS_URL}/iconfont.css">
+    <script src="{JS_URL}/jquery-3.2.1.js"></script>
+    <script src="{JS_URL}/indexCMS.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<!--头部-->
+    <header>
+        <div class="left">
+            <h2>欢迎进入博客后台</h2>
+        </div>
+        <div class="right">
+            <div class="menu"></div>
+            <div class="pull">
+                <ul>
+                    <li><a href="index.php?m=admin&f=admin&a=personal" target="you" class="iconfont icon-gerenzhongxin1">个人中心</a></li>
+                    <li><a href="index.php?m=admin&f=others&a=merchant" target="you" class="iconfont icon-zhanghu3">账户管理</a></li>
+                    <li><a href="index.php?m=index&f=index&a=init" target="_blank" class="iconfont icon-wangye">查看首页</a></li>
+                    <li><a href="index.php?m=admin&f=login&a=loginOut" class="iconfont icon-iconfonttuichu">退出系统</a></li>
+                </ul>
+            </div>
+
+            <div class="aname">{$aname}</div>
+            <div class="photo"><img src="{IMG_URL}/1.jpg" alt=""></div>
+        </div>
+    </header>
+    <section class="row">
+        <!--左侧-->
+        <div class="zuo col-lg-3 col-md-4 col-sm-4">
+            <ul>
+                <li class="iconfont icon-guanliyuanbiao">
+                    管理员管理
+                    <div class="iconfont icon-jiantou-right"></div>
+                    <ul class="sub">
+                        <li><a href="index.php?m=admin&f=admin&a=selectadmin" target="you">查看管理员</a></li>
+                        <li><a href="index.php?m=admin&f=admin&a=addadmin" target="you">添加管理员</a></li>
+                        <li><a href="index.php?m=admin&f=role&a=rote" target="you" class="iconfont icon-dengji">管理员级别管理</a></li>
+                    </ul>
+                </li>
+                <li class="iconfont icon-yonghu1">
+                    用户管理
+                    <div class="iconfont icon-jiantou-right"></div>
+                    <ul class="sub">
+                        <li><a href="index.php?m=admin&f=user&a=selectuser" target="you">查看用户</a></li>
+                        <li><a href="index.php?m=admin&f=user&a=adduser" target="you">添加用户</a></li>
+                    </ul>
+                </li>
+                <li class="iconfont icon-liuyan">
+                    留言管理
+                    <div class="iconfont icon-jiantou-right"></div>
+                    <ul class="sub">
+                        <li><a href="index.php?m=admin&f=message&a=selectmessage" target="you">查看留言</a></li>
+                        <li><a href="index.php?m=admin&f=message&a=addmessage" target="you">添加留言</a></li>
+                    </ul>
+                </li>
+                <li class="iconfont icon-neirongguanli">
+                    用户发表内容管理
+                    <div class="iconfont icon-jiantou-right"></div>
+                    <ul class="sub">
+                        <li><a href="index.php?m=admin&f=content&a=selectcon" target="you">查看内容</a></li>
+                        <li><a href="index.php?m=admin&f=content&a=checkcon" target="you">审核内容</a></li>
+                        <li><a href="index.php?m=admin&f=content&a=addcon" target="you">添加内容</a></li>
+                    </ul>
+                </li>
+                <li class="iconfont icon-fenlei">
+                    分类管理
+                    <div class="iconfont icon-jiantou-right"></div>
+                    <ul class="sub">
+                        <li><a href="index.php?m=admin&f=category&a=selectcate" target="you">查看分类</a></li>
+                        <li><a href="index.php?m=admin&f=category&a=addcate" target="you">添加分类</a></li>
+                    </ul>
+                </li>
+                <li class="iconfont icon-tuijiandaozhiwei">
+                    推荐位管理
+                    <div class="iconfont icon-jiantou-right"></div>
+                    <ul class="sub">
+                        <li><a href="index.php?m=admin&f=positions&a=selectposition" target="you">查看推荐位</a></li>
+                        <li><a href="index.php?m=admin&f=positions&a=addposition" target="you">添加推荐位</a></li>
+                    </ul>
+                </li>
+                <li class="iconfont icon-dingdan">
+                    其他管理
+                    <div class="iconfont icon-jiantou-right"></div>
+                    <ul class="sub">
+                        <li><a href="index.php?m=admin&f=others&a=indent" target="you" class="iconfont icon-dingdan1">订单管理</a></li>
+                        <li><a href="index.php?m=admin&f=others&a=userpay" target="you" class="icon-zhanghu3">用户支付管理</a></li>
+                        <li><a href="index.php?m=admin&f=others&a=merchant" target="you" class="iconfont icon-zhanghu1">商家账户管理</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--右侧-->
+        <div class="you col-lg-9 col-md-8 col-sm-8">
+            <iframe src="" frameborder="0" name="you"></iframe>
+        </div>
+    </section>
+</body>
+</html>

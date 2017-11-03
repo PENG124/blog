@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_URL}/bootstrap.css">
+    <script src="{JS_URL}/jquery-3.2.1.js"></script>
+    <style>
+        td a{
+            width: 50px;
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: block;
+            float: left;
+            margin-right: 30px;
+            color: #000;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+<table class="table table-striped">
+    <tr>
+        <th>推荐位ID</th>
+        <th>推荐位名称</th>
+        <th>操作</th>
+    </tr>
+    {foreach $row as $v}
+    <tr>
+        <td>{$v["pid"]}</td>
+        <td>{$v["pname"]}</td>
+        <td><a href="index.php?m=admin&f=positions&a=delposition&pid={$v['pid']}">删除</a><a href="index.php?m=admin&f=positions&a=updataposition&pid={$v['pid']}">修改</a></td>
+    </tr>
+    {/foreach}
+</table>
+</body>
+</html>

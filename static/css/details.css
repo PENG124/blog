@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+.head{
+    width: 80%;
+    height: 50px;
+    float: left;
+    border-bottom: 4px solid #ddd;
+}
+.bbig{
+    width: 80px;
+    height: 50px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: #2E2831;
+    font-weight: bold;
+}
+.small{
+    width: 150px;
+    height: 50px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+    color: #2E2831;
+    font-family: "华文行楷";
+}
+.index{
+    width: 20%;
+    height: 50px;
+    float: left;
+    border-bottom: 4px solid #ddd;
+}
+.index a{
+    width: 80px;
+    height:30px;
+    display: block;
+    background: #2965B1;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 50px;
+    border-radius: 5px ;
+}
+.con{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-between;
+}
+.userleft{
+    width: 22%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+.usermessage{
+    width: 100%;
+    height: 368px;
+    background: #eee;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+.kuang{
+    width: 140px;
+    height: 170px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 5px 1px #ddd;
+    margin: auto;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.kuangimg{
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+}
+.kuanguser{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    color: #2965B1;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+.kuangimg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.userbutton{
+    width: 100%;
+    height: auto;
+}
+.userbutton li{
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+.userbutton li a{
+    width: 80px;
+    height: 30px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px auto;
+    display: block;
+}
+.message{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+.message span{
+    width: 100%;
+    height: 30px;
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #000;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.userclassify{
+    width: 100%;
+    height: auto;
+    background: #eee;
+    margin-bottom: 20px;
+}
+.userclassify span{
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    color: #000;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+}
+.userclassify ul li{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.userclassify ul li a{
+   font-size: 14px;
+    color: #2965B1;
+    line-height: 40px;
+    text-align: center;
+}
+.conright{
+    width: 76%;
+    height: auto;
+    float: left;
+    border-left: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.contitle{
+    width: 100%;
+    height: 50px;
+}
+.contitle span{
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+}
+.contime{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: right;
+    color: #666;
+}
+.content{
+    width: 100%;
+    height: auto;
+}
+.content p{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+}
+.constate{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.constate li{
+    line-height: 50px;
+    padding: 0 10px;
+    float: left;
+    color: #000;
+}
+.constate li a{
+    color: #000;
+}
+.constate li a:hover{
+    color: #2965B1;
+}
+.review{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.netfriend{
+    width: 100%;
+    height: 30px;
+    background: #ddd;
+}
+.netfriend span{
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.reviewcon{
+    width: 100%;
+    height: auto;
+}
+.reviewcon li{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 10px;
+}
+.reviewcon li a{
+    width: 50%;
+    height: 40px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2965B1;
+    line-height: 40px;
+    float: left;
+}
+.reviewcon li span{
+    width: 50%;
+    height: 40px;
+    display: block;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+    text-align: right;
+    float: left;
+}
+.reviewcon li p{
+    width: 100%;
+    height: auto;
+    text-indent: 2em;
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+}
+.userreview{
+    width: 100%;
+    height: auto;
+}
+.author{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    color: #000;
+    line-height: 40px;
+}
+.comments{
+    width: 100%;
+    height: auto;
+}
+.comments span{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    color: #000;
+    line-height:40px;
+    display: block;
+}
+textarea{
+    resize: none;
+}
+.sub{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: #2965B1;
+    font-size: 18px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.foot{
+    width: 100%;
+    height: 100px;
+}
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+.footer-top{
+    width: 100%;
+    height: 3px;
+    background: #ddd;
+}
+.footer ul{
+    width: 500px;
+    height: 50px;
+    margin: auto;
+}
+.footer ul li{
+    margin: 10px;
+    float: left;
+    font-size: 14px;
+    color: #2965B1;
+    line-height: 30px;
+}
+.footer ul li a{
+    color: #2965B1;
+}
+.blog-copy{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #000;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>审核内容</title>
+    <link href="{CSS_URL}/dpl.css" rel="stylesheet">
+    <link href="{CSS_URL}/bui.css" rel="stylesheet">
+</head>
+<body>
+<div class="demo-content">
+
+    <div class="row">
+        <div class="offset1 span21 doc-content">
+            <table cellspacing="0" class="table table-bordered">
+                <thead>
+                <tr><th colspan="7">
+                    <ul class="toolbar">
+                        <li><label class="checkbox"><input type="checkbox"><a href="#">全选</a></label></li>
+                        <li><button class="button button-danger"><i class="icon-white icon-trash"></i>批量删除</button></li>
+                        <li><button class="button button-success">审核通过</button></li>
+                        <li><button class="button button-inverse">审核不通过</button></li>
+                    </ul>
+                </th></tr>
+                <tr>
+                    <th width="15"></th>
+                    <th>留言者</th>
+                    <th>被留言者</th>
+                    <th>给那篇文章留言</th>
+                    <th>留言的内容</th>
+                    <th>留言(0)/回复</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {foreach $row as $v}
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>{$v["uid1"]}</td>
+                    <td>{$v["uid2"]}</td>
+                    <td>{$v["conid"]}</td>
+                    <td>{$v["mcon"]}</td>
+                    <td>{$v["state"]}</td>
+                    <td><a href="index.php?m=admin&f=message&a=delmessage&mid={$v['mid']}">删除</a></td>
+                </tr>
+                {/foreach}
+                </tbody>
+            </table>
+            <div>
+                <ul class="toolbar pull-left">
+                    <li><label class="checkbox"><input type="checkbox"><a href="#">全选</a></label></li>
+                    <li><button class="button button-danger"><i class="icon-white icon-trash"></i>批量删除</button></li>
+                    <li><button class="button button-success">审核通过</button></li>
+                    <li><button class="button button-inverse">审核不通过</button></li>
+                </ul>
+                <div class="pagination pull-right">
+                    <ul>
+                        <li class="disabled"><a href="#">« 上一页</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">下一页 »</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_URL}/bootstrap.css">
+    <script src="{JS_URL}/jquery-3.2.1.js"></script>
+</head>
+<body>
+<table class="table table-striped">
+    <tr>
+        <th>购买文章</th>
+        <th>购买用户</th>
+        <th>状态</th>
+        <th>放入购物车的时间</th>
+        <th>操作</th>
+    </tr>
+    {foreach $row as $v}
+    <tr>
+        <td>{$v["conid"]}</td>
+        <td>{$v["uid"]}</td>
+        <td>{$v["state"]}</td>
+        <td>{$v["cardata"]}</td>
+        <td><a href="">删除</a><a href="">修改</a></td>
+    </tr>
+    {/foreach}
+</table>
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+.big{
+    width: 500px;
+    height: 480px;
+    background: #E0EDFC;
+    margin: auto;
+    box-shadow: 1px 0 5px 2px rgba(0,0,0,0.3);
+}
+.head{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    border-bottom: 1px solid #2965B1;
+}
+.divi{
+    width: 3px;
+    height: 30px;
+    background: #2965B1;
+    float: left;
+    margin-top: 10px;
+}
+.head-login,.head-reg{
+    width: 49.7%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 22px;
+    color: #2965B1;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    letter-spacing: 20px;
+}
+.loginreg{
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+    position: relative;
+}
+.login{
+    width: 100%;
+    position: absolute;
+}
+.codeimg{
+    width: 100px;
+    height: 40px;
+    display: block;
+}
+.four2{
+    width: 100px;
+    height: 40px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.liul{
+    width: 350px;
+    height: 60px;
+    line-height:60px;
+    margin: auto;
+    text-align: center;
+}
+.reg{
+    width: 100%;
+    position: absolute;
+}
+.reg form{
+    display: none;
+}
+.col-sm-7,.col-sm-4{
+    padding-left: 0;
+}
+.btn-primary{
+    width: 340px;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
